@@ -50,13 +50,9 @@ The mobile app focuses on a smooth shopping flow from discovery to order trackin
 
 ### Mobile preview
 
-> Screenshots and a short walkthrough video will be added here.
+Arabic and English onboarding, alongside light and dark login screens, presented in a consistent four-device showcase.
 
-<!--
-Add mobile screenshots here.
-Suggested order:
-Home → Listing/Search → Product Details → Cart → Checkout → Order Details
--->
+![Style Market — Arabic and English onboarding and light/dark login screens](assets/screenshots/mobile/onboarding-login-showcase.webp)
 
 ---
 
@@ -196,7 +192,6 @@ The code samples focus on useful engineering examples rather than publishing eve
 Planned additions:
 
 - 📹 Short product walkthrough
-- 📱 Mobile screenshots
 - 🖥️ Admin Dashboard screenshots
 - 🔗 APK / store link when available
 - 🌐 Live Admin demo when available
