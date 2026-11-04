@@ -1,6 +1,8 @@
 <div align="center">
 
-# 🛍️ Style Market
+<img src="assets/screenshots/mobile/login_logo.webp" alt="Style Market Logo" width="130" />
+
+# Style Market
 
 ### Flutter shopping app + Flutter Web admin dashboard
 
@@ -16,14 +18,14 @@ A complete fashion shopping experience built with Flutter, from browsing product
 
 Style Market is an e-commerce project built around two Flutter applications:
 
-| 📱 Customer App | 🖥️ Admin Dashboard |
-| --- | --- |
-| Browse and search products | Monitor store activity |
-| View colors, sizes, prices, and stock | Manage products and variants |
-| Cart and favorites | Manage product images and inventory |
-| Addresses and checkout | Review and manage orders |
-| Order history and details | Manage catalog content |
-| Arabic and English support | Responsive Flutter Web interface |
+| 📱 Customer App                       | 🖥️ Admin Dashboard                  |
+| ------------------------------------- | ----------------------------------- |
+| Browse and search products            | Monitor store activity              |
+| View colors, sizes, prices, and stock | Manage products and variants        |
+| Cart and favorites                    | Manage product images and inventory |
+| Addresses and checkout                | Review and manage orders            |
+| Order history and details             | Manage catalog content              |
+| Arabic and English support            | Responsive Flutter Web interface    |
 
 The two applications communicate with the same REST API while keeping their UI, state, routing, and client logic separate.
 
@@ -48,11 +50,53 @@ The mobile app focuses on a smooth shopping flow from discovery to order trackin
 - 🔐 Session and token handling
 - 🔔 Notification integration
 
-### Mobile preview
+### Mobile Application Walkthrough
 
-Arabic and English onboarding, alongside light and dark login screens, presented in a consistent four-device showcase.
+The visual showcase reflects the logical customer journey through the mobile app—from discovery to post-order management:
 
-![Style Market — Arabic and English onboarding and light/dark login screens](assets/screenshots/mobile/onboarding-login-showcase.webp)
+#### 1. Onboarding & Authentication
+
+Bilingual onboarding (Arabic & English) with guest access and authentication in light and dark modes.
+
+![Onboarding & Authentication](assets/screenshots/mobile/login.webp)
+
+#### 2. Storefront & Product Discovery
+
+Dynamic promotional banners, categorized shopping shortcuts, curated collections,
+curated featured products,
+and personalized recommendations.
+
+![Storefront & Discovery](assets/screenshots/mobile/home.webp)
+
+#### 3. Product Listing & Smart Filtering
+
+Catalog search and browsing with instant bottom-sheet filters for color swatches, size availability, and price ranges.
+
+![Product Listing & Smart Filtering](assets/screenshots/mobile/listing.webp)
+
+#### 4. Product Details & Variant Selection
+
+Interactive product showcase featuring multi-angle media galleries, color/size matrices, stock checks, and similar items.
+
+![Product Details & Variant Selection](assets/screenshots/mobile/item_detils.webp)
+
+#### 5. Cart & Delivery Addresses
+
+Synchronized shopping cart with quantity controls, cross-sell suggestions, and saved delivery address selection.
+
+![Cart & Delivery Addresses](assets/screenshots/mobile/cart.webp)
+
+#### 6. Multi-Step Checkout & Orders
+
+Frictionless checkout pipeline with payment method selection, address verification, order review, and real-time status tracking.
+
+![Checkout & Order Tracking](assets/screenshots/mobile/checkout.webp)
+
+#### 7. Account, Preferences & Localization
+
+User profile management, instant Arabic/English locale switching, theme preference toggles, and direct support channels.
+
+![Account, Preferences & Localization](assets/screenshots/mobile/profile.webp)
 
 ---
 
@@ -144,18 +188,18 @@ The architecture guide explains the original project structure, state management
 
 ## 🧰 Tech Stack
 
-| Area | Technology |
-| --- | --- |
-| Mobile | Flutter, Dart, GetX |
-| Admin Web | Flutter Web, Flutter Bloc / Cubit |
-| Routing | GetX routing, GoRouter |
-| Networking | Dio, Retrofit |
-| Dependency Injection | GetIt, Injectable, GetX bindings |
-| Models & State | Freezed, JSON serialization |
-| Backend Communication | REST API |
-| Firebase | Authentication, Messaging, Crashlytics, Analytics, Performance |
-| Local Storage | Shared Preferences, secure/session storage |
-| Testing | Flutter Test, mocks/fakes, Cubit tests |
+| Area                  | Technology                                                     |
+| --------------------- | -------------------------------------------------------------- |
+| Mobile                | Flutter, Dart, GetX                                            |
+| Admin Web             | Flutter Web, Flutter Bloc / Cubit                              |
+| Routing               | GetX routing, GoRouter                                         |
+| Networking            | Dio, Retrofit                                                  |
+| Dependency Injection  | GetIt, Injectable, GetX bindings                               |
+| Models & State        | Freezed, JSON serialization                                    |
+| Backend Communication | REST API                                                       |
+| Firebase              | Authentication, Messaging, Crashlytics, Analytics, Performance |
+| Local Storage         | Shared Preferences, secure/session storage                     |
+| Testing               | Flutter Test, mocks/fakes, Cubit tests                         |
 
 ---
 
