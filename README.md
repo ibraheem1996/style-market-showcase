@@ -129,9 +129,8 @@ High-level operational overview featuring real-time revenue and order metrics, c
 
 #### Interactive Store Operations Walkthrough
 Demonstration of order lifecycle management, customer data management, payment tracking, and daily store administration workflows.
-<video src="assets/screenshots/admin/admin-walkthrough.mp4" controls="controls" muted="muted" width="100%" poster="assets/screenshots/admin/admin-dashboard-showcase.webp">
-  <p>Your browser does not support embedded videos. <a href="assets/screenshots/admin/admin-walkthrough.mp4">Click here to watch the Admin Walkthrough video</a>.</p>
-</video>
+
+https://github.com/user-attachments/assets/1959bec5-ffcd-4a04-bf8d-1e9fb0747f2b
 
 > 📹 **Video Walkthrough (83s)**: [Watch or Download `admin-walkthrough.mp4` (Full HD)](assets/screenshots/admin/admin-walkthrough.mp4) — covers order detail inspection (`#215`), status transitions, customer data verification, and sidebar navigation.
 
