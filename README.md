@@ -118,15 +118,22 @@ The Admin application is built with Flutter Web and focuses on store operations 
 - 🧭 Session-aware routing
 - 📐 Responsive sidebar and compact layouts
 
-### Admin preview
+### Admin Web Walkthrough & Preview
 
-> Dashboard and management screenshots will be added here.
+The administrative panel provides a centralized, RTL-native desktop workspace tailored for daily retail operations and catalog management.
 
-<!--
-Add admin screenshots here.
-Suggested order:
-Dashboard → Products → Product Media → Orders → Responsive narrow layout
--->
+#### Dashboard & Operations Overview
+High-level operational overview featuring real-time revenue and order metrics, customer acquisition stats, inventory health monitoring, and modular catalog & order panels.
+
+![Style Market Admin Dashboard Overview](assets/screenshots/admin/admin-dashboard-showcase.webp)
+
+#### Interactive Store Operations Walkthrough
+Demonstration of order lifecycle management, customer data management, payment tracking, and daily store administration workflows.
+<video src="assets/screenshots/admin/admin-walkthrough.mp4" controls="controls" muted="muted" width="100%" poster="assets/screenshots/admin/admin-dashboard-showcase.webp">
+  <p>Your browser does not support embedded videos. <a href="assets/screenshots/admin/admin-walkthrough.mp4">Click here to watch the Admin Walkthrough video</a>.</p>
+</video>
+
+> 📹 **Video Walkthrough (83s)**: [Watch or Download `admin-walkthrough.mp4` (Full HD)](assets/screenshots/admin/admin-walkthrough.mp4) — covers order detail inspection (`#215`), status transitions, customer data verification, and sidebar navigation.
 
 ---
 
@@ -231,14 +238,12 @@ The code samples focus on useful engineering examples rather than publishing eve
 
 ---
 
-## 🎬 Demo & Screenshots
+## 🎬 Demo & Media
 
-Planned additions:
-
-- 📹 Short product walkthrough
-- 🖥️ Admin Dashboard screenshots
-- 🔗 APK / store link when available
-- 🌐 Live Admin demo when available
+- 📱 **Customer Mobile App**: 7 visual showcases detailing onboarding through checkout (see [Mobile Walkthrough](#mobile-application-walkthrough))
+- 🖥️ **Admin Web Dashboard**: Overview render and 83-second live operations walkthrough (see [Admin Preview](#admin-web-walkthrough--preview))
+- 🔗 **APK / Store Release**: In preparation
+- 🌐 **Live Web Demo**: In preparation
 
 ---
 
