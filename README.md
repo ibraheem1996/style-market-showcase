@@ -12,6 +12,12 @@ A complete fashion shopping experience built with Flutter, from browsing product
 
 </div>
 
+## 📲 Try the Demo
+
+**[⬇️ Download Android APK — v1.0.1](https://github.com/ibraheem1996/style-market-showcase/releases/download/v1.0.1/style-market-demo-1.0.1.apk)** · **[🌐 Open Live Admin Web](https://style-market-demo.duckdns.org/)**
+
+The Android APK is distributed through GitHub Releases. On Android, installation from your browser or file manager may need to be allowed.
+
 ---
 
 ## ✨ What is Style Market?
@@ -241,8 +247,8 @@ The code samples focus on useful engineering examples rather than publishing eve
 
 - 📱 **Customer Mobile App**: 7 visual showcases detailing onboarding through checkout (see [Mobile Walkthrough](#mobile-application-walkthrough))
 - 🖥️ **Admin Web Dashboard**: Overview render and 83-second live operations walkthrough (see [Admin Preview](#admin-web-walkthrough--preview))
-- 🔗 **APK / Store Release**: In preparation
-- 🌐 **Live Web Demo**: In preparation
+- 🔗 **Android APK v1.0.1**: [Download APK](https://github.com/ibraheem1996/style-market-showcase/releases/download/v1.0.1/style-market-demo-1.0.1.apk)
+- 🌐 **Live Admin Web**: [Open web demo](https://style-market-demo.duckdns.org/)
 
 ---
 
